@@ -324,3 +324,68 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>true</td>
    </tr>
    </table>
+
+   ## 📄**Estruturas de Decisão** 
+
+   - Controla o fluxo 
+   - De acordo com a condição, podem desviar do fluxo principal. 
+
+   - Estruturas Condicionais:
+   
+   IF-ELSE: Analisa a expressão e toma uma decisão.
+   `if(num > 0) {Console.WriteLine("Numero maior que 0!")} else {Console.WriteLine("Numero menor que 0!")}`
+   
+   SWITCH-CASE: Analisa o valor e tomar decisão.
+   `int number=1; switch(number){case 1: Console.WriteLine("O número é um."); break; case 2: Console.WriteLine("O número é dois."); break;}`
+
+   - Estrutura de Repetição:
+
+   WHILE: Enquanto a condição for verdadeira bloco de código será executado.
+   `int i=0; while(i > 5){Console.WriteLine(i); i++; }`
+
+   DO-WHILE: Semelhante ao while, mas garante que as instruções sejam executadas pelo menos uma vez.
+   `int i=0; do{Console.WriteLine(i); i++;} while(i > 5);`
+   
+   FOR: Usado para repetir uma série de instruções especificadas uma quantidade conhecida de vezes. 
+   `for(int i = 0; i< 10; i++)`
+   (Inicializa a variável ; Expressão booleana ; Incrementa/Decrementa)
+
+   FOREACH: Não precisamos informar a condição de parada
+   A repetição vai acontecer de acordo com o tamanho do elemento 
+   Executa elementos de uma coleção (Array, List, Stack, Queue)
+   `string[] produtos = { "TV", "Notebook", "Tablet", "Celular" }; foreach (string produto in produtos){System.Console.WriteLine("Produto: " + produto);}`
+
+   ## 📄**Listas**
+
+   Representa uma lista fortemente tipada de objetos que podem ser acessados por índice. 
+   Fornece métodos para pesquisar, classificar e manipular listas.
+ 
+   -Fortemente tipada
+   -Utiliza Classe List 
+   -Namespace: System.Collections.Generic
+   -Acesso pelo índice
+   -Redimensionamento dinâmico 
+   -Eficiente
+
+   A Lista possui redimensionamento dinâmico enquanto o array possui um tamanho definido (não podemos alterar o tamanho da posição em tempo de execução).
+   A Lista possui acervo maior de métodos para manipular coleções. 
+   Um único tipo que evita a necessidade de uma análise
+
+   <table>
+   <tr>
+   <td>Array</td>
+   <td>List</td>
+   </tr>
+   <tr>
+   <td>Tamanho fixo</td>
+   <td>Sem tamanho fixo</td>
+   </tr>
+   <tr>
+   <td>Redimensionar é "caro"</td>
+   <td>Faz a gestão de tamanho</td>
+   </tr>
+   <tr>
+   <td>Dados multidimensionais(matriz)</td>
+   <td>Não possui dados multidimensionais "nativo"</td>
+   </tr>
+   </table>
