@@ -125,17 +125,17 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    </tr>
    <tr>
    <td>float</td>
-   <td>4 bits</td>
+   <td>4 byts</td>
    <td>~6 a 9 dígitos</td> 
    </tr>
    <tr>
    <td>double</td>
-   <td>8 bits</td>
+   <td>8 byts</td>
    <td>~15 a 17 dígitos</td> 
    </tr>
    <tr>
    <td>decimal</td>
-   <td>16 bits</td>
+   <td>16 byts</td>
    <td>28 a 29 dígitos</td> 
    </tr>
    </table>
@@ -153,3 +153,23 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>1 bit</td>
    <td>true ou false</td> 
    </tr>
+
+   4) Tipos textuais
+   Usado para armazenar textos.
+   <table>
+   <tr>
+   <td>Tipo</td>
+   <td>Tamanho</td>
+   <td>Faixa de valores</td>
+   </tr>
+   <tr>
+   <td>char</td>
+   <td>2 bytes</td>
+   <td>Um caractere</td> 
+   </tr>
+   <tr>
+   <td>string</td>
+   <td>2 bytes por caractere</td>
+   <td>Textos</td> 
+   </tr>
+   </table>
