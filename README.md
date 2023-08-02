@@ -264,16 +264,20 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <tr>
    <td>Sinal</td>
    <td>Operação</td>
+   <td>Significado</td>
    </tr>
    <tr>
    <td> && </td>
    <td>Conjunção (AND) = E </td>
+   <td>Resulta TRUE se ambas as partes forem verdadeiras.</td>
    </tr>
    <tr>
    <td> || </td>
    <td>Disjunção (OR) = OU </td>
+   <td>Resulta TRUE se somente uma das partes for verdadeira.</td>
    </tr>
    <tr>
    <td> ! </td>
    <td>Negação (NOT) = NÃO </td>
+   <td>Negará uma afirmação, invertendo seu valor lógico: se for true, torna-se false, se for false, torna-se true.</td>
    </tr>
