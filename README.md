@@ -359,18 +359,6 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
 
    ## Lista
 
-   `List<int> valores = new List<int>();`
-
-   `List<int> valores = new List<int>(2);`
-
-   `List<int> valores = new List<int>(); valores.Add(1); valores.Add(2);`
-
-   //Declaração = `List<int> valores`
-
-   //Criando Instância = `valores = new List<int>();`
-
-   //Atribuição = `valores.Add(1); valores.Add(2);`
-
    Representa uma lista fortemente tipada de objetos que podem ser acessados por índice. 
    
    Fornece métodos para pesquisar, classificar e manipular listas.
@@ -410,6 +398,22 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>Não possui dados multidimensionais "nativo"</td>
    </tr>
    </table>
+
+   Exemplos:
+
+   `List<int> valores = new List<int>();`
+
+   `List<int> valores = new List<int>(2);`
+
+   `List<int> valores = new List<int>(); valores.Add(1); valores.Add(2);`
+
+   //Declaração = `List<int> valores`
+
+   //Criando Instância = `valores = new List<int>();`
+
+   //Atribuição = `valores.Add(1); valores.Add(2);`
+
+
 
    ## Listas - Métodos
 
