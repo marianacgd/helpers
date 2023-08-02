@@ -355,19 +355,40 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    Executa elementos de uma coleção (Array, List, Stack, Queue)
    `string[] produtos = { "TV", "Notebook", "Tablet", "Celular" }; foreach (string produto in produtos){System.Console.WriteLine("Produto: " + produto);}`
 
-   ## 📄**Listas**
+   ## 📄**Listas e Arrays**
+
+   ## Lista
+
+   `List<int> valores = new List<int>();`
+
+   `List<int> valores = new List<int>(2);`
+
+   `List<int> valores = new List<int>(); valores.Add(1); valores.Add(2);`
+
+   //Declaração = `List<int> valores`
+
+   //Criando Instância = `valores = new List<int>();`
+
+   //Atribuição = `valores.Add(1); valores.Add(2);`
 
    Representa uma lista fortemente tipada de objetos que podem ser acessados por índice. 
+   
    Fornece métodos para pesquisar, classificar e manipular listas.
  
    -Fortemente tipada
+   
    -Utiliza Classe List 
+   
    -Namespace: System.Collections.Generic
+   
    -Acesso pelo índice
+   
    -Redimensionamento dinâmico 
+   
    -Eficiente
 
    A Lista possui redimensionamento dinâmico enquanto o array possui um tamanho definido (não podemos alterar o tamanho da posição em tempo de execução).
+   
    A Lista possui acervo maior de métodos para manipular coleções. 
    Um único tipo que evita a necessidade de uma análise
 
@@ -389,3 +410,19 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>Não possui dados multidimensionais "nativo"</td>
    </tr>
    </table>
+
+   ## Listas - Métodos
+
+   Add / AddRange
+
+   Remove / RemoveAt / RemoveAll
+
+   ElementAt
+
+   Insert
+
+   Count
+
+   Clear
+
+   Contains
