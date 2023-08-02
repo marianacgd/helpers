@@ -449,3 +449,75 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    - “Super variável”
    
    - Memória não é alocada para o array até a criação de uma instância usando o new
+
+   
+   Temos algumas formas de declarar uma array. 
+   
+   A primeira que veremos é a seguinte: 
+   
+   declaramos o tipo junto com [] (abre e fecha colchetes) recebendo uma instância de um novo array passando o seu tamanho dentro dos colchetes.
+   `string[] nomes = new string[3];` onde `new string[3];` = //instância, tipo e tamanho. 
+
+   A segunda que veremos é a seguinte: 
+   
+   declaramos o tipo junto com [] (abre e fecha colchetes) recebendo uma sequência de dados do tipo declarado dentro de {} (abre e fecha chaves). Cada valor deve ser separado por vírgula. A essa forma damos o nome de declaração por inferência. Nesse caso o tamanho do array é definido pelo número de elementos adicionados.
+
+   `string[] nomes = {"Maria", "João", "Paulo"};` onde `{"Maria", "João", "Paulo"};` = valores adicionados no momento da instanciação.
+
+   Importante: o tamanho de um array é fixo. Ao declarar um tamanho não é possível adicionar valores dinamicamente.
+
+   #### Arrays básicos
+
+   O array é um tipo complexo derivado do System.Array. Existem formas diferentes de criamos uma variável com uma lista de dados, mas iremos iniciar nosso estudo pela seguinte sintaxe:
+
+   `string[] listaNomes = new string[5]; listaNomes[0] = "Camila"; listaNomes[1] = "Gabriel"; listaNomes[2] = "Max"; listaNomes[3] = "Dayane"; listaNomes[4] = "Erlon";`
+
+   - Arrays Unidimensionais (Vetores) 
+   1 índice para controlar o array
+   
+   - Arrays Bidimensionais (Matrizes) 
+   2 índices para controlar o array 
+   + 1 posição de índice
+
+   Exemplos:
+
+   `int[] numerosDaSorte; // Declaração do array numerosDaSorte = new int[3]; // Instanciando numerosDaSorte[0] = 30; numerosDaSorte[1] = 50; numerosDaSorte[2] = 100; // Atribuição` 
+
+   `int[] idades  = new int[5]{ 20, 26, 36, 18, 80 };`
+
+   `string[] cidade = new string[3]{"Campo Grande", "Campinas", "Florianópolis"};`
+
+    ## Arrays - Métodos
+
+    Contains()
+
+    Length()
+
+    First()
+
+    FirstOrDefault()
+
+    Concat()
+
+    CopyTo()
+
+    ## Enums
+
+    - Tipo de enumeração
+    
+    - Conjunto de constantes nomeadas
+    
+    - Define um tipo personalizado
+    
+    - Define os valores possíveis
+
+    Exemplos:
+
+    `public enum Days{ None,//0 Monday,//1 Tuesday,//2 Wednesday,//3...}`
+    `enum Generos{ Aventura, Romance, Suspense, Terror}`
+    `enum Color{ Red, Green, Blue}`
+
+    Tipo de Dados:
+    Existem também os tipos de dados Enum e Struct.
+
+    
