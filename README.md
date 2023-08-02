@@ -66,7 +66,6 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    ## 📄**Tipos de Dados**  
   
    1) Tipos numéricos inteiros
-   <br>
    Representa numeros inteiros, sem parte fracionária. Os que iniciam com o u ("unsigned") não aceitam valores negativos.
    <table>
    <tr>
@@ -116,8 +115,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    </tr>
    </table>
 
-    2) Tipos numéricos de ponto flutuante    
-   <br>
+   2) Tipos numéricos de ponto flutuante
    Representam numeros "reais", que possuem parte fracionária.
    <table>
    <tr>
@@ -143,7 +141,6 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    </table>
 
    3) Tipo booleano
-   <br>
    Usado para armazenar valores que podem ser representados como Verdadeiro ou Falso.
    <table>
    <tr>
