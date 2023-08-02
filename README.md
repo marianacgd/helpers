@@ -153,6 +153,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>1 bit</td>
    <td>true ou false</td> 
    </tr>
+   </table>
 
    4) Tipos textuais
    Usado para armazenar textos.
