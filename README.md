@@ -190,17 +190,24 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>-</td>
    <td>Subtração</td>
    </tr>
+   <tr>
+   <td>*</td>
+   <td>Multiplicação</td>
+   </tr>
+   <tr>
+   <td>/</td>
+   <td>Divisão</td>
+   </tr>
+   <tr>
+   <td>%</td>
+   <td>Resto</td>
+   </tr>
+   <tr>
+   <td>=</td>
+   <td>Atribuição</td>
+   </tr>
+   <tr>
+   <td>==</td>
+   <td>Comparação</td>
+   </tr>
    </table>
-   - `+ Soma`
-
-   - - Subtração
-   
-   - * Multiplicação
-   
-   - / Divisão
-   
-   - % Resto
-   
-   - = Atribuição
-   
-   - == Comparação
