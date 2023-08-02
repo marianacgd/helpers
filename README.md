@@ -67,6 +67,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
   
    1) Tipos numéricos inteiros
    <br>
+   Representa numeros inteiros, sem parte fracionária. Os que iniciam com o u ("unsigned") não aceitam valores negativos.
    <table>
    <tr>
    <td>Tipo</td>
@@ -114,3 +115,44 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>0 a 18.446.744.073.709.551.615</td> 
    </tr>
    </table>
+
+    2) Tipos numéricos de ponto flutuante    
+   <br>
+   Representam numeros "reais", que possuem parte fracionária.
+   <table>
+   <tr>
+   <td>Tipo</td>
+   <td>Tamanho</td>
+   <td>Precisão</td>
+   </tr>
+   <tr>
+   <td>float</td>
+   <td>4 bits</td>
+   <td>~6 a 9 dígitos</td> 
+   </tr>
+   <tr>
+   <td>double</td>
+   <td>8 bits</td>
+   <td>~15 a 17 dígitos</td> 
+   </tr>
+   <tr>
+   <td>decimal</td>
+   <td>16 bits</td>
+   <td>28 a 29 dígitos</td> 
+   </tr>
+   </table>
+
+   3) Tipo booleano
+   <br>
+   Usado para armazenar valores que podem ser representados como Verdadeiro ou Falso.
+   <table>
+   <tr>
+   <td>Tipo</td>
+   <td>Tamanho</td>
+   <td>Faixa de valores</td>
+   </tr>
+   <tr>
+   <td>bool</td>
+   <td>1 bit</td>
+   <td>true ou false</td> 
+   </tr>
