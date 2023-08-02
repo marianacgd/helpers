@@ -357,7 +357,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
 
    ## 📄**Listas e Arrays**
 
-   ## Lista
+   Listas
 
    Representa uma lista fortemente tipada de objetos que podem ser acessados por índice. 
    
@@ -413,7 +413,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
 
    //Atribuição = `valores.Add(1); valores.Add(2);`
 
-
+   `List<int> valores = new List<int>() {1, 2};`
 
    ## Listas - Métodos
 
