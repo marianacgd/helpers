@@ -357,23 +357,23 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
 
    ## 📄**Listas e Arrays**
 
-   Listas
+   ### Listas
 
    Representa uma lista fortemente tipada de objetos que podem ser acessados por índice. 
    
    Fornece métodos para pesquisar, classificar e manipular listas.
  
-   -Fortemente tipada
+   - Fortemente tipada
    
-   -Utiliza Classe List 
+   - Utiliza Classe List 
    
-   -Namespace: System.Collections.Generic
+   - Namespace: System.Collections.Generic
    
-   -Acesso pelo índice
+   - Acesso pelo índice
    
-   -Redimensionamento dinâmico 
+   - Redimensionamento dinâmico 
    
-   -Eficiente
+   - Eficiente
 
    A Lista possui redimensionamento dinâmico enquanto o array possui um tamanho definido (não podemos alterar o tamanho da posição em tempo de execução).
    
@@ -407,11 +407,11 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
 
    `List<int> valores = new List<int>(); valores.Add(1); valores.Add(2);`
 
-   //Declaração = `List<int> valores`
+   `List<int> valores` = //Declaração
 
-   //Criando Instância = `valores = new List<int>();`
+   `valores = new List<int>();` = //Criando Instância
 
-   //Atribuição = `valores.Add(1); valores.Add(2);`
+   `valores.Add(1); valores.Add(2);` = //Atribuição
 
    `List<int> valores = new List<int>() {1, 2};`
 
@@ -430,3 +430,22 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    Clear
 
    Contains
+
+   ### Arrays
+
+   Arrays são utilizados para armazenar múltiplos valores em uma única variável. 
+   Chamamos isso de Variáveis Compostas.    
+   No C# esses valores precisam ser de mesmo tipo. 
+   Ao nome dado ao Array chamamos de identificador e por ele é possível acessar os valores armazenados. 
+   Cada valor recebe um número correspondente a sua posição, chamamos eles de índices. 
+   Os índices sempre começam em 0.
+
+   - Armazena conjunto de valores
+   
+   - Armazena de uma só vez
+   
+   - Múltiplos valores do mesmo tipo
+   
+   - “Super variável”
+   
+   - Memória não é alocada para o array até a criação de uma instância usando o new
