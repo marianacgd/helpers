@@ -177,7 +177,21 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
 
    ## 📄**Operadores Aritméticos**  
 
-   - + Soma
+   <table>
+   <tr>
+   <td>Sinal</td>
+   <td>Operação</td>
+   </tr>
+   <tr>
+   <td>+</td>
+   <td>Soma</td>
+   </tr>
+   <tr>
+   <td>-</td>
+   <td>Subtração</td>
+   </tr>
+   </table>
+   - `+ Soma`
 
    - - Subtração
    
