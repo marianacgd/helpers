@@ -6,7 +6,7 @@ Ajuda com Comandos
 
 ## CSHARP
 
-## Ambiente 
+## ⚙️Ambiente 
 
 Kit de Desenvolvimento de Software (SDK) do .NET: 
 https://dotnet.microsoft.com/en-us/download
