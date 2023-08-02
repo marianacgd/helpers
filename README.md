@@ -216,6 +216,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    Todas as expressões precisam estar linearizadas, ou seja, em uma “única linha”;
 
    Precedências, da maior para a menor:
+   
    1 - Parênteses;
    
    2 - Expoentes;
@@ -223,4 +224,38 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    3 - Multiplicações e divisões (da esquerda para a direita);
    
    4 - Somas e subtrações (da esquerda para a direita);
+
+    ## 📄**Operadores Relacionais**  
+
+   <table>
+   <tr>
+   <td>Sinal</td>
+   <td>Operação</td>
+   </tr>
+   <tr>
+   <td> > </td>
+   <td>Maior que</td>
+   </tr>
+   <tr>
+   <td> < </td>
+   <td>Menor que</td>
+   </tr>
+   <tr>
+   <td> >= </td>
+   <td>Maior ou igual que</td>
+   </tr>
+   <tr>
+   <td> <= </td>
+   <td>Menor ou igual que</td>
+   </tr>
+   <tr>
+   <td> == </td>
+   <td>Igual a</td>
+   </tr>
+   <tr>
+   <td> != </td>
+   <td>Diferente de</td>
+   </tr>
+   </table>
+
 
