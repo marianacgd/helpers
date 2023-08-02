@@ -1,5 +1,5 @@
 # HELPERS
-Ajuda com Comandos
+Ajuda com as linguagens. Preparação de ambiente, criação de proejto, comandos e dicas.
 
 ## JAVASCRIPT
 
@@ -60,5 +60,57 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <tr>
    <td>dotnet build</td>
    <td>	Cria um aplicativo .NET.</td>
+   </tr>
+   </table>
+
+   ## 📄**Tipos de Dados**  
+  
+   1) Tipos numéricos inteiros
+   <br>
+   <table>
+   <tr>
+   <td>Tipo</td>
+   <td>Tamanho</td>
+   <td>Faixa de valores</td>
+   </tr>
+   <tr>
+   <td>byte</td>
+   <td>8 bits</td>
+   <td>0 a 255</td> 
+   </tr>
+   <tr>
+   <td>sbyte</td>
+   <td>8 bits</td>
+   <td>-128 a 127</td> 
+   </tr>
+   <tr>
+   <td>short</td>
+   <td>16 bits</td>
+   <td>-32.768 a 32.767</td> 
+   </tr>
+   <tr>
+   <td>ushort</td>
+   <td>16 bits</td>
+   <td>0 a 65.535</td> 
+   </tr>
+   <tr>
+   <td>int</td>
+   <td>32 bits</td>
+   <td>-2.147.483.648 a 2.147.483.647</td> 
+   </tr>
+   <tr>
+   <td>uint</td>
+   <td>32 bits</td>
+   <td>0 a 4.294.967.295</td> 
+   </tr>
+   <tr>
+   <td>long</td>
+   <td>64 bits</td>
+   <td>-9.223.372.036.854.775.808 a 9.223.372.036.854.775.807</td> 
+   </tr>
+   <tr>
+   <td>ulong</td>
+   <td>64 bits</td>
+   <td>0 a 18.446.744.073.709.551.615</td> 
    </tr>
    </table>
