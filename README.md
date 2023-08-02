@@ -225,7 +225,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    
    4 - Somas e subtrações (da esquerda para a direita);
 
-    ## 📄**Operadores Relacionais**  
+   ## 📄**Operadores Relacionais**  
 
    <table>
    <tr>
@@ -258,4 +258,22 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    </tr>
    </table>
 
+   ## 📄**Operadores Lógicos**  
 
+   <table>
+   <tr>
+   <td>Sinal</td>
+   <td>Operação</td>
+   </tr>
+   <tr>
+   <td> && </td>
+   <td>Conjunção (AND) = E </td>
+   </tr>
+   <tr>
+   <td> || </td>
+   <td>Disjunção (OR) = OU </td>
+   </tr>
+   <tr>
+   <td> ! </td>
+   <td>Negação (NOT) = NÃO </td>
+   </tr>
