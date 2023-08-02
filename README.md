@@ -211,3 +211,16 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>Comparação</td>
    </tr>
    </table>
+   
+   Para algoritmos que possuam cálculos matemáticos: 
+   Todas as expressões precisam estar linearizadas, ou seja, em uma “única linha”;
+
+   Precedências, da maior para a menor:
+   1 - Parênteses;
+   
+   2 - Expoentes;
+   
+   3 - Multiplicações e divisões (da esquerda para a direita);
+   
+   4 - Somas e subtrações (da esquerda para a direita);
+
