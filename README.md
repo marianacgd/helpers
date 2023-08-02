@@ -281,3 +281,46 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
    <td>Negação (NOT) = NÃO </td>
    <td>Negará uma afirmação, invertendo seu valor lógico: se for true, torna-se false, se for false, torna-se true.</td>
    </tr>
+
+   <table>
+   <tr>
+   <td>a</td>
+   <td>b</td>
+   <td>a && b</td>
+   <td>a || b</td>
+   <td>!a</td>
+   <td>!b</td>
+   </tr>
+   <tr>
+   <td>true</td>
+   <td>true</td>
+   <td>true</td>
+   <td>true</td>
+   <td>false</td>
+   <td>false</td>
+   </tr>
+   <tr>
+   <td>true</td>
+   <td>false</td>
+   <td>false</td>
+   <td>true</td>
+   <td>false</td>
+   <td>true</td>
+   </tr>
+   <tr>
+   <td>false</td>
+   <td>true</td>
+   <td>false</td>
+   <td>true</td>
+   <td>true</td>
+   <td>false</td>
+   </tr>
+   <tr>
+   <td>false</td>
+   <td>false</td>
+   <td>false</td>
+   <td>false</td>
+   <td>true</td>
+   <td>true</td>
+   </tr>
+   </table>
