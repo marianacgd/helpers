@@ -487,6 +487,7 @@ A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma 
 
    `string[] cidade = new string[3]{"Campo Grande", "Campinas", "Florianópolis"};`
 
+    
     ## Arrays - Métodos
 
     Contains()
