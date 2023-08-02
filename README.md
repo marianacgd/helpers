@@ -26,3 +26,35 @@ Deu erro? Apareceu a mensagem de “It was not possible to find any installed .N
 Prossiga com a instalação.
 Tente novamente executar o comando `dotnet new console -o meuPrimeirPrograma`
 
+## Executando a aplicação C#
+Para executar seu projeto, retorne ao prompt de comando, acesse a pasta do seu projeto e em seguida execute o comando `dotnet run`
+
+## Material de Apoio
+Documentação .NET CLI https://docs.microsoft.com/pt-br/dotnet/core/tools/
+A CLI (interface de linha de comando) do .NET é uma ferramenta multiplataforma para desenvolvimento, criação, execução e publicação de aplicativos .NET. A CLI do .NET está incluída no .NET SDK.
+
+`dotnet` - O driver genérico para a CLI do .NET.
+
+## 📄**Comandos dotnet**  
+
+1) Geral
+   <br>
+   
+   <table>
+   <tr>
+   <td>Comando</td>
+   <td>Função</td>
+   </tr>
+   <tr>
+   <td>dotnet new</td>
+   <td>Inicializa um projeto do C# ou F# de um modelo especificado.</td>
+   </tr>
+   <tr>
+   <td>dotnet run</td>
+   <td>Executa o aplicativo na origem.</td>
+   </tr>
+   <tr>
+   <td>dotnet build</td>
+   <td>	Cria um aplicativo .NET.</td>
+   </tr>
+   </table>
