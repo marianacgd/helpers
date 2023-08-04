@@ -24,39 +24,72 @@ Ajuda com as linguagens. Preparação de ambiente, criação de proejto, comando
 Métodos de Array:
 
 Array.push() : Adiciona um ou mais elementos ao final de uma matriz e retorna o novo comprimento da matriz.
+
 Array.pop() : Remove o último elemento de uma matriz e retorna esse elemento.
+
 Array.unshift() : Adiciona um ou mais elementos ao início de um array e retorna o novo comprimento do array.
+
 Array.shift() : Remove o primeiro elemento de uma matriz e retorna esse elemento.
+
 Array.concat() : Une dois ou mais arrays e retorna um novo array.
+
 Array.slice() : Extrai uma parte de um array em um novo array sem modificar o array original.
+
 Array.splice() : Adiciona ou remove elementos de uma matriz em um índice específico.
+
 Array.join() : Une todos os elementos de um array em uma string.
+
 Array.indexOf() : Retorna o primeiro índice no qual um determinado elemento pode ser encontrado na matriz.
+
 Array.includes() : Determina se uma matriz inclui um determinado valor.
+
 Array.filter() : Cria um novo array com elementos que passam no teste de uma função fornecida.
+
 Array.map() : Cria uma nova matriz aplicando uma função a cada elemento da matriz original.
+
 Array.flatMap() : cria um novo array chamando uma função para cada elemento do array.
+
 Array.reduce() : Reduz um array a um único valor executando uma função fornecida para cada elemento.
+
 Array.sort() : Classifica os elementos de uma matriz no local e retorna a matriz classificada.
+
 Array.reverse() : Inverte a ordem dos elementos em um array no lugar.
+
 Array.forEach() : Executa uma função fornecida uma vez para cada elemento do array.
-Array.every() : executa uma função para cada elemento do array. retorna true se a função retornar true para todos os elementos. retorna false se a função retorna false para um elemento.
+
+Array.every() : executa uma função para cada elemento do array. retorna true se a função retornar true para todos os elementos. 
+retorna false se a função retorna false para um elemento.
+
 Array.find() : retorna o valor do primeiro elemento que passa no teste.
+
 Array.findIndex() : retorna o índice (posição) do primeiro elemento que passa no teste.
+
 Array.at() :  retorna um elemento indexado de uma matriz.
+
 Array.entries() : retorna um objeto Array Iterator com pares chave/valor:
+
 
 
 Métodos de Objeto:
 
 Object.keys() : Retorna uma matriz dos nomes de propriedades enumeráveis ​​de um determinado objeto.
+
 Object.values() : Retorna uma matriz dos próprios valores de propriedade enumeráveis ​​de um determinado objeto.
+
 Object.entries() : Retorna uma matriz dos próprios pares de valor-chave enumeráveis ​​de um determinado objeto.
+
 Object.assign() : Copia os valores de todas as propriedades enumeráveis ​​de um ou mais objetos de origem para um objeto de destino.
+
 Object.hasOwnProperty() : Retorna um booleano indicando se um objeto tem a propriedade especificada como uma propriedade direta.
-Object.freeze() : Congela um objeto, impedindo que novas propriedades sejam adicionadas e propriedades existentes sejam removidas ou modificadas.
-Object.seal() : Sela um objeto, impedindo que novas propriedades sejam adicionadas e marcando todas as propriedades existentes como não configuráveis.
+
+Object.freeze() : Congela um objeto, impedindo que novas propriedades sejam adicionadas e propriedades existentes sejam removidas ou 
+modificadas.
+
+Object.seal() : Sela um objeto, impedindo que novas propriedades sejam adicionadas e marcando todas as propriedades existentes como 
+não configuráveis.
+
 Object.getPrototypeOf() : Retorna o protótipo de um objeto.
+
 Object.setPrototypeOf() : Define o protótipo (isto é, a propriedade interna [[Prototype]]) de um objeto.
 
 
